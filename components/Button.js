@@ -1,4 +1,9 @@
-import { StyleSheet, View, Pressable, Text } from 'react-native';
+import { 
+  StyleSheet, 
+  View, 
+  Pressable, 
+  Text 
+} from 'react-native';
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 
 /* @info The prop theme to detect the button variant. */ 
