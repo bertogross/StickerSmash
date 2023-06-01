@@ -1,16 +1,17 @@
 import { View, Image } from 'react-native';
-import {  PanGestureHandler, TapGestureHandler} from "react-native-gesture-handler";
+import { 
+  PanGestureHandler, 
+  TapGestureHandler 
+} from "react-native-gesture-handler";
 
-import Animated from 'react-native-reanimated';
-const AnimatedImage = Animated.createAnimatedComponent(Image);
-
-import { TapGestureHandler } from 'react-native-gesture-handler';
 import Animated, {
   useAnimatedStyle,
   useSharedValue,
   useAnimatedGestureHandler,
   withSpring,
 } from 'react-native-reanimated';
+
+const AnimatedImage = Animated.createAnimatedComponent(Image);
 
 const scaleImage = useSharedValue(imageSize);
 
