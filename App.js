@@ -135,7 +135,7 @@ export default function App() {
       /* ...rest of the code remains */
       </GestureHandlerRootView>
 
-      <StatusBar style="auto" />
+      <StatusBar style="light" />
     </GestureHandlerRootView>
   );
 }
